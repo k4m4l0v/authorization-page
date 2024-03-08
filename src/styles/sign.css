@@ -1,0 +1,132 @@
+.sign__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 376px;
+    padding: 0 28px;
+    margin: 102px auto 0 auto;
+}
+
+.sign__title {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 22px;
+}
+
+.sign__description {
+    line-height: 24px;
+    margin-bottom: 52px;
+}
+
+.sign__link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #0C21C1;
+}
+
+.sign__link:hover {
+    color: #071586;
+}
+
+.sign__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign__form_input {
+    border: none;
+    color: #000842;
+}
+
+.sign__form_input:focus {
+    outline: none;
+}
+
+.sign-in__input_wrapper {
+    border-bottom: 2px solid #999;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.sign-up__input_wrapper {
+    border-bottom: 2px solid #999;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+.sign__input_wrapper:focus {
+    border-bottom: 2px solid #000842;
+}
+
+.sign__svg_container {
+    width: 19px;
+    height: 17px;
+}
+
+.sign-in__form_button {
+    font-size: 17px;
+    color: #fff;
+    background-color: #0C21C1;
+    padding: 14px 134px;
+    border: none;
+    border-radius: 32px;
+    margin-top: 45px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sign-in__form_button:hover {
+    background-color: #071586;
+}
+
+.sign-in__input_label {
+    font-size: 13px;
+    color: #999;
+}
+
+.sign-up__form_button {
+    font-size: 17px;
+    color: #fff;
+    background-color: #0C21C1;
+    padding: 14px 134px;
+    border: none;
+    border-radius: 32px;
+    margin-top: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.sign-up__form_button:hover {
+    background-color: #071586;
+}
+
+.sign-up__input_label {
+    font-size: 13px;
+    color: #999;
+}
+
+.sign__form_input-password {
+    font-size: 13px;
+}
+
+.sign__container {
+    display: flex;
+    gap: 125px;
+}
+
+.sign__picture_img {
+    height: 100vh;
+}
+
+@media (max-width: 450px) {
+    .sign__picture_container {
+        display: none;
+    }
+}
